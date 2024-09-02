@@ -1,0 +1,253 @@
+{
+    "name": "Generated Templated",
+    "metadata-version": 1,
+    "author": "Schema Listview generator tool",
+    "platforms": [
+      "App Inventor",
+      "Kodular",
+      "Niotron"
+    ],
+    "keys": [
+      "id",
+      "customer",
+      "no_wr",
+      "spesifikasi",
+      "Masuk",
+      "no_chasis",
+      "order"
+    ],
+    "components": [
+      {
+        "id": "Card_View3{id}",
+        "type": "MakeroidCardView",
+        "properties": {
+          "FullClickable": true,
+          "Width": -2
+        },
+        "components": [
+          {
+            "id": "Horizontal_Arrangement6{id}",
+            "type": "HorizontalArrangement",
+            "properties": {
+              "AlignVertical": 2,
+              "BackgroundColor": -1,
+              "Clickable": true,
+              "Width": -2
+            },
+            "components": [
+              {
+                "id": "Vertical_Arrangement4{id}",
+                "type": "VerticalArrangement",
+                "properties": {
+                  "Width": -2
+                },
+                "components": [
+                  {
+                    "id": "Horizontal_Arrangement7{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {},
+                    "components": [
+                      {
+                        "id": "Label12{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "Customer"
+                        }
+                      },
+                      {
+                        "id": "Space3{id}",
+                        "type": "SpaceView",
+                        "properties": {
+                          "Width": 9
+                        }
+                      },
+                      {
+                        "id": "Label13{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "{customer}"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Horizontal_Arrangement7_copy3{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {},
+                    "components": [
+                      {
+                        "id": "Label12_copy3{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "No.WR"
+                        }
+                      },
+                      {
+                        "id": "Space3_copy3{id}",
+                        "type": "SpaceView",
+                        "properties": {
+                          "Width": 31
+                        }
+                      },
+                      {
+                        "id": "Label13_copy3{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "{no_wr}"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Horizontal_Arrangement7_copy2{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {},
+                    "components": [
+                      {
+                        "id": "Label12_copy2{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "Spesifikasi"
+                        }
+                      },
+                      {
+                        "id": "Space3_copy2{id}",
+                        "type": "SpaceView",
+                        "properties": {
+                          "Width": 8
+                        }
+                      },
+                      {
+                        "id": "Label13_copy2{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "{spesifikasi}"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Horizontal_Arrangement7_copy1{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {},
+                    "components": [
+                      {
+                        "id": "Label12_copy1{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "Tgl.WR"
+                        }
+                      },
+                      {
+                        "id": "Space3_copy1{id}",
+                        "type": "SpaceView",
+                        "properties": {
+                          "Width": 33
+                        }
+                      },
+                      {
+                        "id": "Label13_copy1{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "{Masuk}"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Horizontal_Arrangement7_copy{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {},
+                    "components": [
+                      {
+                        "id": "Label12_copy{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "No.Chasis"
+                        }
+                      },
+                      {
+                        "id": "Space3_copy{id}",
+                        "type": "SpaceView",
+                        "properties": {
+                          "Width": 12
+                        }
+                      },
+                      {
+                        "id": "Label13_copy{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "{no_chasis}"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Horizontal_Arrangement7_copy_copy{id}",
+                    "type": "HorizontalArrangement",
+                    "properties": {},
+                    "components": [
+                      {
+                        "id": "Label12_copy_copy{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "Order"
+                        }
+                      },
+                      {
+                        "id": "Space3_copy_copy{id}",
+                        "type": "SpaceView",
+                        "properties": {
+                          "Width": 36
+                        }
+                      },
+                      {
+                        "id": "Label13_copy_copy{id}",
+                        "type": "Label",
+                        "properties": {
+                          "FontSize": 12,
+                          "FontTypefaceImport": "Poppins-Medium.ttf",
+                          "Text": "{order}"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "Image1{id}",
+                "type": "Image",
+                "properties": {
+                  "Width": 40,
+                  "Picture": "Link.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
